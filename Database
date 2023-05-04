@@ -1,0 +1,6 @@
+import sqlite3
+con = sqlite3.connect()
+con.cursor()
+
+#Tables
+cur.execute("CREATE TABLE IF NOT EXISTS Flüge(
